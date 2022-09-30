@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    line-height: 1.2;
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: hsl(33, 100%, 98%)
+    ;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: hsl(10, 79%, 65%);
+    color: white;
+    margin-bottom: 1rem;
+}
+
+header p{
+    opacity: 0.9;
+}
+
+.logo{
+    width: 100%;
+}
+
+section{
+    padding: 1rem 1rem;
+    background-color: white;
+    border-radius: 10px;
+    color: hsl(25, 47%, 15%);
+}
+
+.total{
+    border-top: 2px solid hsl(27, 66%, 92%);
+    margin-top: 1rem;
+    padding-top: 1rem;
+}
+
+.l-month{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.percent{
+    text-align: end;
+    /* line-height: 0.2; */
+}
+
+.total p{
+    font-size: small;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.money h1{
+    font-size: xx-large;
+}
